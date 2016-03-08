@@ -1,0 +1,15 @@
+D:\Games\Projects\VN\VN\bin\Debug\VN.exe.config
+D:\Games\Projects\VN\VN\bin\Debug\VN.exe
+D:\Games\Projects\VN\VN\obj\Debug\VN.Properties.Resources.resources
+D:\Games\Projects\VN\VN\obj\Debug\VN.csproj.GenerateResource.Cache
+D:\Games\Projects\VN\VN\obj\Debug\VN.exe
+D:\Games\Projects\VN\VN\obj\Debug\Interop.WMPLib.dll
+D:\Games\Projects\VN\VN\obj\Debug\VN.csproj.ResolveComReference.cache
+D:\Games\Projects\VN\VN\bin\Debug\Interop.WMPLib.dll
+D:\Games\Projects\VN\VN\bin\Debug\AxInterop.WMPLib.dll
+D:\Games\Projects\VN\VN\obj\Debug\AxInterop.WMPLib.dll
+D:\Games\Projects\VN\VN\obj\Debug\VN.EditorWindow.resources
+D:\Games\Projects\VN\VN\obj\Debug\VN.g.resources
+D:\Games\Projects\VN\VN\obj\Debug\VN.csprojResolveAssemblyReference.cache
+D:\Games\Projects\VN\VN\bin\Debug\VN.pdb
+D:\Games\Projects\VN\VN\obj\Debug\VN.pdb
