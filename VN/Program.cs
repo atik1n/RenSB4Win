@@ -50,7 +50,7 @@ namespace VN
         public static int LastLine = 0;
         public static int Index;
 
-        public static string[] Loader(PictureBox BG, RichTextBox Code)
+        public static string[] Loader(PictureBox BG, RichTextBox Code, LinkLabel BUS)
         {
             #region Сценарий
             string[] Scenario = File.ReadAllLines(Scenarios + Game.Scenario + ".txt");
@@ -65,6 +65,7 @@ namespace VN
             PlaytimeSmall = new Font(font.Families[0], 12);
 
             Code.Font = PlaytimeSmall;
+            BUS.Font = PlaytimeSmall;
             #endregion
 
             string[] Load = Directory.GetDirectories(Sprites);

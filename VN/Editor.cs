@@ -42,7 +42,7 @@ namespace VN
             this.Code.Font = RenSB.Playtime;
              */
 
-            scenario = RenSB.Loader(this.BGs_Event, this.Code);
+            scenario = RenSB.Loader(this.BGs_Event, this.Code, this.BUS110);
             length = scenario.Length;
 
 
@@ -107,5 +107,10 @@ namespace VN
             RenSB.wmp.settings.volume = this.volumeSlider.Value;
         }
         #endregion
+
+        private void BUS110_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://vk.com/bus110");
+        }
     }
 }

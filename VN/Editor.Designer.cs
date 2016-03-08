@@ -37,6 +37,7 @@
             this.volumeSlider = new System.Windows.Forms.TrackBar();
             this.AudioPlay = new System.Windows.Forms.Button();
             this.AudioStop = new System.Windows.Forms.Button();
+            this.BUS110 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.BGs_Event)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Say)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.volumeSlider)).BeginInit();
@@ -131,12 +132,24 @@
             this.AudioStop.UseVisualStyleBackColor = true;
             this.AudioStop.Click += new System.EventHandler(this.AudioStop_Click);
             // 
+            // BUS110
+            // 
+            this.BUS110.AutoSize = true;
+            this.BUS110.Location = new System.Drawing.Point(713, 841);
+            this.BUS110.Name = "BUS110";
+            this.BUS110.Size = new System.Drawing.Size(89, 13);
+            this.BUS110.TabIndex = 15;
+            this.BUS110.TabStop = true;
+            this.BUS110.Text = "© BUS110, 2016";
+            this.BUS110.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.BUS110_LinkClicked);
+            // 
             // EditorWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(824, 840);
+            this.ClientSize = new System.Drawing.Size(824, 863);
+            this.Controls.Add(this.BUS110);
             this.Controls.Add(this.AudioStop);
             this.Controls.Add(this.AudioPlay);
             this.Controls.Add(this.volumeSlider);
@@ -154,6 +167,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Say)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.volumeSlider)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -167,6 +181,7 @@
         private System.Windows.Forms.Button AudioStop;
         public System.Windows.Forms.PictureBox BGs_Event;
         public System.Windows.Forms.Label RenderText;
+        private System.Windows.Forms.LinkLabel BUS110;
     }
 }
 
